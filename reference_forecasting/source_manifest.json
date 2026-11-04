@@ -1,0 +1,246 @@
+[
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak\\checks.py",
+    "sha256": "0c0f943eec6a4787c889cccf54e56d871e6c919f4fa61b836cc6d101ce45e66b"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak\\decomposition.py",
+    "sha256": "e713028275a9cd2f9706a9a86793fdb2f16e5cc83c9ebe1f9b38b26895c79839"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak\\model.py",
+    "sha256": "1676c13365a216d603a7315186d0c86ff82774645c3def652192b10877057841"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak\\README.md",
+    "sha256": "ca2030115d9e2d9fca0d9eefcf596cd2d687cc50ad0f20e0be3551625e0cd848"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak\\REPRODUCTION_AUDIT.md",
+    "sha256": "371067d0ca1973f870b21f877757396b2341ab76cbfcd233eb4ed25fcb24f133"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak\\requirements.txt",
+    "sha256": "993d345e7269bdf52719b4a4cf4c933b3ad4b6a43ac464c772365065e584ecc1"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak\\run.py",
+    "sha256": "c5dfe9159fea7d6bf106fa9acfa11e89c014fa119bb2a777a7edd7538e94b4ed"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak\\data\\raw\\hourly.csv",
+    "sha256": "33c562f3a4b1d5921740516189b2317471059f43ffc0d1eba99c2f9d4921283d"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak\\reference\\author_KANInformer.py",
+    "sha256": "d6ceac12687a0ac7879da015dbd8f52c94c3a038adc093e6d48c921908270e7f"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\.gitignore",
+    "sha256": "709f5e250387241afff62cbbcce16c182d7c58b8b18eaa27e3c4b2748ed527fe"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\checks.py",
+    "sha256": "ed54dc6671b18e682bd6b528268f106387850fcb267425b24d25f804ee495f43"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\decomposition.py",
+    "sha256": "e2a6a2791e1c5f411b0f6dc801d8d51058738d620c7a4018c824051c1aee1fca"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\model.py",
+    "sha256": "1676c13365a216d603a7315186d0c86ff82774645c3def652192b10877057841"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\README.md",
+    "sha256": "829d2d86c2546b073f81d548978c2fc772e82dbaebbd4c0db567efe5a8b915bb"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\REPRODUCTION_AUDIT.md",
+    "sha256": "7ddd9d62fc85771d00e3e1cf149a7b69caaecaa6698680b651844a38e10714be"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\requirements.txt",
+    "sha256": "993d345e7269bdf52719b4a4cf4c933b3ad4b6a43ac464c772365065e584ecc1"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\run.py",
+    "sha256": "8789cbb6754d9da767be5b32400ad37df053b4b3885b47b2d0cb4c3588674464"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\termial.txt",
+    "sha256": "9e7c5490594ae17fc624b52e700aa821d2c0d73b05c762d62613684c4294e6f1"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\data\\raw\\hourly.csv",
+    "sha256": "33c562f3a4b1d5921740516189b2317471059f43ffc0d1eba99c2f9d4921283d"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\reference\\author_KANInformer.py",
+    "sha256": "d6ceac12687a0ac7879da015dbd8f52c94c3a038adc093e6d48c921908270e7f"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\kan_original\\kan_original\\original_dataleak.v1\\reference\\BASELINE_REPRODUCTION_AUDIT.md",
+    "sha256": "371067d0ca1973f870b21f877757396b2341ab76cbfcd233eb4ed25fcb24f133"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\.gitignore",
+    "sha256": "d93391d534432da567d051a645edc34b67cd37d6be0b56a121ffff428593af6b"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\description.md",
+    "sha256": "fa287890459b64f21211fcd5e270dc2ec34f15c19109a4f0dbdcd443e39d9c96"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\NOTICE.md",
+    "sha256": "b10f922c1b958827768f2d1f524d4d4f72f89f03ad5cab76edcefb611f46785c"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\requirements.txt",
+    "sha256": "624cc7997846642aee8e72003a50b96cfc1b716809ca73e591ed3697ac485516"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\VERIFICATION.md",
+    "sha256": "1c5f791d1b31cc960f2b3efa0f774779bd2e4e8359e553ab897dcbf139e16fb1"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\01_statistical_similarity\\description.md",
+    "sha256": "da4c7f771e1adffbcdfc4a52d27b701c526a441d7577c9e4c47215c5d72f209f"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\01_statistical_similarity\\run.py",
+    "sha256": "efb8ac4de4df117fd004daac3052e19c00232d8deb43d8ff20cea8b91b06ab81"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\02_spatial_statistics\\description.md",
+    "sha256": "0785664e3b3f331697e97eee7f1d579ef78dfdb1f80223f808b4a9046f5c7fdb"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\02_spatial_statistics\\run.py",
+    "sha256": "dec0be6bfbcc44df3261240bdf621248c7d2b2ccaa4c94ed084bb9890ab7bfc1"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\03_clustering\\description.md",
+    "sha256": "0a83d7af12807edb29140bd201ea6522bcb33d38e3b1f7b33b573a7f4f8225e0"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\03_clustering\\run.py",
+    "sha256": "36dd4cdc657b29bcbedb76eb8366c0ff3bc31146a4e31a7548413544bb457658"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\04_graph_kaninformer\\description.md",
+    "sha256": "8b1f6ef6505c7efa583f074e6a87aed2a480bade2ae6d8d42fbdd4ed28aa55ff"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\04_graph_kaninformer\\run.py",
+    "sha256": "b23d0d07cb47ee1b23c5170bd3a884a24bd293a2c91563178aaf398d4b6c07d5"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\05_spatiotemporal\\description.md",
+    "sha256": "6e9983eb95f16120f6ea6cf1e1db651b2955f60f97924cb133f8599126b2618a"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\05_spatiotemporal\\run.py",
+    "sha256": "34deb00260527b45444aa89843480ed233dcf6f40d3023b17522260b746cf6e5"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\BASELINE_REPRODUCTION_AUDIT.md",
+    "sha256": "7ddd9d62fc85771d00e3e1cf149a7b69caaecaa6698680b651844a38e10714be"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\provenance.json",
+    "sha256": "f2e278a012e11f6a88e017ac4285a9df25d2769ef5c5c87aac98e69e08005ec4"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_002_fivepoints.csv",
+    "sha256": "bbedb1ccbadf84127d07cf73a11f30a64bd13173a40fa708b579a28cbd5ff559"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_005_shafter.csv",
+    "sha256": "a67905f6c9f6e716d348ac21238b6030a0358894cf6b19242c5449c48d287bb3"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_006_davis.csv",
+    "sha256": "96442c0f40de42388a9ea27592f64023badb28a6ebd034a90e08deef26c62fa7"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_007_firebaugh_telles.csv",
+    "sha256": "86b1ebfd159affdff5fbf2f323ebfb8137ea78dc3509c163ce0bed58e7a37fe3"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_013_camino.csv",
+    "sha256": "69305418096915bc9d0554f5dfeaad8d25032baa0a1039bbf6c5705fd4352998"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_015_stratford.csv",
+    "sha256": "3f9d8c5a51859cf13d7e74064c74f94ff93a16e8015a01cc6d5d5c1691ea511d"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_039_parlier.csv",
+    "sha256": "2d8f572db9bd1ccbedb7ff33a8cb4468f24c2ce6b879d89f407fc34bbf4fd111"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_047_brentwood.csv",
+    "sha256": "662a571563b0464da77fe588745277fda41cee26241fd87fcd6fdfea8720f9d7"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_052_san_luis_obispo.csv",
+    "sha256": "708387bfa47f948788182cd94d3656e5796641c4172d8cb55050e94ffc1bed1a"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_091_tulelake_fs.csv",
+    "sha256": "e623d2984b56f59c9bea00bab81af9352050f8bb716aac94254d59121f870af0"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_105_westlands.csv",
+    "sha256": "a4a67fdf41e64003537b177f7d1837ef23365d744263430ec5cfda597b5ec067"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_107_santa_barbara.csv",
+    "sha256": "af670ec0c23a189ff3235bbb6ed3ec6eafdd05577a7108d42be5f9467fc1210e"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_113_king_city_oasis_rd.csv",
+    "sha256": "123554fcd96a5c7196d8bc5087ab2b3a12e2e89617e4aa174fe76a46144cbd4e"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_146_belridge.csv",
+    "sha256": "7cd281ae3cf9e6896034af1f765a140c06e1518602b636cf5b6435cc51a8a036"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\data\\station_coordinates.json",
+    "sha256": "cc592cadb6f898690ef0b7659b5c4cba6731b57c7ead996b1d485306ea7548d5"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\shared\\__init__.py",
+    "sha256": "6c1593e7c67008c6cdf3e643110f81f9c99adf27c823787de43d0fe2fe68aaeb"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\shared\\common.py",
+    "sha256": "3ea1d448ea2355937862d95d1b382669c24255774d28d35fcd73c03cdb078fe5"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\shared\\decomposition.py",
+    "sha256": "e2a6a2791e1c5f411b0f6dc801d8d51058738d620c7a4018c824051c1aee1fca"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\shared\\forecast_data.py",
+    "sha256": "04bd3e52ec28e28b0aace45c6f3de9f36bf73adee48e4fb6c35ab51bee890ed2"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\shared\\forecast.py",
+    "sha256": "12b0639577033144a9b8ab92f4f0f745242a12a8cf0783f28bc2f97ad9a0cde9"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\shared\\kan_backbone.py",
+    "sha256": "1676c13365a216d603a7315186d0c86ff82774645c3def652192b10877057841"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\shared\\networks.py",
+    "sha256": "067380d668d36bc09c8f25b0ab88d9ede443aaf4941ca1e49ceda96f67a518d0"
+  },
+  {
+    "path": "D:\\Drive D\\projects all mixed\\journal\\spatial\\tests\\test_project.py",
+    "sha256": "4df6ad2845ef27590c20acc8b589da31d81fcd67192a8c369bac0caddb1fcd29"
+  }
+]

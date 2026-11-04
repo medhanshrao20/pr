@@ -1,0 +1,110 @@
+[
+  {
+    "variant": "L",
+    "file": "checks.py",
+    "match": true,
+    "sha256": "0c0f943eec6a4787c889cccf54e56d871e6c919f4fa61b836cc6d101ce45e66b"
+  },
+  {
+    "variant": "L",
+    "file": "decomposition.py",
+    "match": true,
+    "sha256": "e713028275a9cd2f9706a9a86793fdb2f16e5cc83c9ebe1f9b38b26895c79839"
+  },
+  {
+    "variant": "L",
+    "file": "model.py",
+    "match": true,
+    "sha256": "1676c13365a216d603a7315186d0c86ff82774645c3def652192b10877057841"
+  },
+  {
+    "variant": "L",
+    "file": "README.md",
+    "match": true,
+    "sha256": "ca2030115d9e2d9fca0d9eefcf596cd2d687cc50ad0f20e0be3551625e0cd848"
+  },
+  {
+    "variant": "L",
+    "file": "REPRODUCTION_AUDIT.md",
+    "match": true,
+    "sha256": "371067d0ca1973f870b21f877757396b2341ab76cbfcd233eb4ed25fcb24f133"
+  },
+  {
+    "variant": "L",
+    "file": "requirements.txt",
+    "match": true,
+    "sha256": "993d345e7269bdf52719b4a4cf4c933b3ad4b6a43ac464c772365065e584ecc1"
+  },
+  {
+    "variant": "L",
+    "file": "run.py",
+    "match": true,
+    "sha256": "c5dfe9159fea7d6bf106fa9acfa11e89c014fa119bb2a777a7edd7538e94b4ed"
+  },
+  {
+    "variant": "L",
+    "file": "reference\\author_KANInformer.py",
+    "match": true,
+    "sha256": "d6ceac12687a0ac7879da015dbd8f52c94c3a038adc093e6d48c921908270e7f"
+  },
+  {
+    "variant": "L.1",
+    "file": ".gitignore",
+    "match": true,
+    "sha256": "709f5e250387241afff62cbbcce16c182d7c58b8b18eaa27e3c4b2748ed527fe"
+  },
+  {
+    "variant": "L.1",
+    "file": "checks.py",
+    "match": true,
+    "sha256": "ed54dc6671b18e682bd6b528268f106387850fcb267425b24d25f804ee495f43"
+  },
+  {
+    "variant": "L.1",
+    "file": "decomposition.py",
+    "match": true,
+    "sha256": "e2a6a2791e1c5f411b0f6dc801d8d51058738d620c7a4018c824051c1aee1fca"
+  },
+  {
+    "variant": "L.1",
+    "file": "model.py",
+    "match": true,
+    "sha256": "1676c13365a216d603a7315186d0c86ff82774645c3def652192b10877057841"
+  },
+  {
+    "variant": "L.1",
+    "file": "README.md",
+    "match": true,
+    "sha256": "829d2d86c2546b073f81d548978c2fc772e82dbaebbd4c0db567efe5a8b915bb"
+  },
+  {
+    "variant": "L.1",
+    "file": "REPRODUCTION_AUDIT.md",
+    "match": true,
+    "sha256": "7ddd9d62fc85771d00e3e1cf149a7b69caaecaa6698680b651844a38e10714be"
+  },
+  {
+    "variant": "L.1",
+    "file": "requirements.txt",
+    "match": true,
+    "sha256": "993d345e7269bdf52719b4a4cf4c933b3ad4b6a43ac464c772365065e584ecc1"
+  },
+  {
+    "variant": "L.1",
+    "file": "run.py",
+    "match": true,
+    "sha256": "8789cbb6754d9da767be5b32400ad37df053b4b3885b47b2d0cb4c3588674464"
+  },
+  {
+    "variant": "L.1",
+    "file": "reference\\author_KANInformer.py",
+    "match": true,
+    "sha256": "d6ceac12687a0ac7879da015dbd8f52c94c3a038adc093e6d48c921908270e7f"
+  },
+  {
+    "variant": "L.1",
+    "file": "reference\\BASELINE_REPRODUCTION_AUDIT.md",
+    "match": true,
+    "sha256": "371067d0ca1973f870b21f877757396b2341ab76cbfcd233eb4ed25fcb24f133"
+  }
+]

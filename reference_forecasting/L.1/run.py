@@ -1,0 +1,6 @@
+"""Execute unchanged copied L.1 methods on the new Brentwood data."""
+import sys
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
+from common.experiment import main
+if __name__=="__main__": main("L.1")
