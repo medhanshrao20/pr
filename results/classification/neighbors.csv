@@ -1,0 +1,4 @@
+station,name,distance_km,inverse_distance_weight,missing_neighbor_cells_2024,missing_neighbor_cells_2025
+6,Davis,68.33042767499835,0.4981228515019581,36,8
+13,Camino,122.13989295767145,0.2786718299287708,50,8
+7,Firebaugh/Telles,152.49165071868677,0.22320531856927106,12,90

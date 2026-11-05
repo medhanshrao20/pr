@@ -1,0 +1,417 @@
+{
+  "seed": 42,
+  "target_station": 47,
+  "classes": [
+    "Low (<3 mph)",
+    "Medium (3 to <7 mph)",
+    "High (>=7 mph)"
+  ],
+  "thresholds_mph": [
+    3.0,
+    7.0
+  ],
+  "raw_attributes": 10,
+  "instances": 16806,
+  "train_n": 8413,
+  "test_n": 8393,
+  "train_class_counts": [
+    2698,
+    3763,
+    1952
+  ],
+  "test_class_counts": [
+    2911,
+    3652,
+    1830
+  ],
+  "neighbors": [
+    {
+      "station": 6,
+      "name": "Davis",
+      "distance_km": 68.33042767499835,
+      "inverse_distance_weight": 0.4981228515019581,
+      "missing_neighbor_cells_2024": 36,
+      "missing_neighbor_cells_2025": 8
+    },
+    {
+      "station": 13,
+      "name": "Camino",
+      "distance_km": 122.13989295767145,
+      "inverse_distance_weight": 0.2786718299287708,
+      "missing_neighbor_cells_2024": 50,
+      "missing_neighbor_cells_2025": 8
+    },
+    {
+      "station": 7,
+      "name": "Firebaugh/Telles",
+      "distance_km": 152.49165071868677,
+      "inverse_distance_weight": 0.22320531856927106,
+      "missing_neighbor_cells_2024": 12,
+      "missing_neighbor_cells_2025": 90
+    }
+  ],
+  "feature_names": {
+    "local_current": [
+      "eto_in",
+      "precip_in",
+      "sol_rad_ly_per_day",
+      "vapor_pressure_mbar",
+      "air_temp_f",
+      "relative_humidity_pct",
+      "dew_point_f",
+      "wind_speed_mph",
+      "wind_direction_deg",
+      "soil_temp_f"
+    ],
+    "temporal": [
+      "eto_in",
+      "precip_in",
+      "sol_rad_ly_per_day",
+      "vapor_pressure_mbar",
+      "air_temp_f",
+      "relative_humidity_pct",
+      "dew_point_f",
+      "wind_speed_mph",
+      "wind_direction_deg",
+      "soil_temp_f",
+      "wind_lag_1",
+      "wind_lag_3",
+      "wind_mean_3",
+      "wind_std_3",
+      "wind_change",
+      "temperature_dewpoint_spread",
+      "direction_sin",
+      "direction_cos",
+      "hour_sin",
+      "hour_cos",
+      "annual_sin",
+      "annual_cos"
+    ],
+    "spatial_current": [
+      "eto_in",
+      "precip_in",
+      "sol_rad_ly_per_day",
+      "vapor_pressure_mbar",
+      "air_temp_f",
+      "relative_humidity_pct",
+      "dew_point_f",
+      "wind_speed_mph",
+      "wind_direction_deg",
+      "soil_temp_f",
+      "n6_wind_speed_mph",
+      "n6_air_temp_f",
+      "n6_relative_humidity_pct",
+      "n6_vapor_pressure_mbar",
+      "n13_wind_speed_mph",
+      "n13_air_temp_f",
+      "n13_relative_humidity_pct",
+      "n13_vapor_pressure_mbar",
+      "n7_wind_speed_mph",
+      "n7_air_temp_f",
+      "n7_relative_humidity_pct",
+      "n7_vapor_pressure_mbar",
+      "neighbor_mean_wind_speed_mph",
+      "local_minus_neighbor_wind_speed_mph",
+      "neighbor_mean_air_temp_f",
+      "local_minus_neighbor_air_temp_f",
+      "neighbor_mean_relative_humidity_pct",
+      "local_minus_neighbor_relative_humidity_pct"
+    ],
+    "spatiotemporal": [
+      "eto_in",
+      "precip_in",
+      "sol_rad_ly_per_day",
+      "vapor_pressure_mbar",
+      "air_temp_f",
+      "relative_humidity_pct",
+      "dew_point_f",
+      "wind_speed_mph",
+      "wind_direction_deg",
+      "soil_temp_f",
+      "wind_lag_1",
+      "wind_lag_3",
+      "wind_mean_3",
+      "wind_std_3",
+      "wind_change",
+      "temperature_dewpoint_spread",
+      "direction_sin",
+      "direction_cos",
+      "hour_sin",
+      "hour_cos",
+      "annual_sin",
+      "annual_cos",
+      "n6_wind_speed_mph",
+      "n6_air_temp_f",
+      "n6_relative_humidity_pct",
+      "n6_vapor_pressure_mbar",
+      "n13_wind_speed_mph",
+      "n13_air_temp_f",
+      "n13_relative_humidity_pct",
+      "n13_vapor_pressure_mbar",
+      "n7_wind_speed_mph",
+      "n7_air_temp_f",
+      "n7_relative_humidity_pct",
+      "n7_vapor_pressure_mbar",
+      "n6_wind_lag_1",
+      "n6_wind_mean_3",
+      "n13_wind_lag_1",
+      "n13_wind_mean_3",
+      "n7_wind_lag_1",
+      "n7_wind_mean_3",
+      "neighbor_mean_wind_speed_mph",
+      "local_minus_neighbor_wind_speed_mph",
+      "neighbor_mean_air_temp_f",
+      "local_minus_neighbor_air_temp_f",
+      "neighbor_mean_relative_humidity_pct",
+      "local_minus_neighbor_relative_humidity_pct"
+    ]
+  },
+  "feature_counts": {
+    "local_current": 10,
+    "temporal": 22,
+    "spatial_current": 28,
+    "spatiotemporal": 46
+  },
+  "executed_conditions": [
+    "local_current",
+    "temporal",
+    "spatial_current",
+    "spatiotemporal"
+  ],
+  "protocol": "2024 development, five stratified calendar-day grouped folds; 2025 final future test; same-day histories and next-hour labels.",
+  "hypothesis": "Adding spatial current observations and histories to temporal features increases next-hour macro-F1 for the same classifier.",
+  "primary_classifier": "RandomForest",
+  "selection_rule": "Maximum temporal mean validation macro-F1, then compare the same classifier in both arms.",
+  "folds": [
+    {
+      "fold": 1,
+      "train_n": 6735,
+      "validation_n": 1678,
+      "train_counts": [
+        2119,
+        3049,
+        1567
+      ],
+      "validation_counts": [
+        579,
+        714,
+        385
+      ]
+    },
+    {
+      "fold": 2,
+      "train_n": 6735,
+      "validation_n": 1678,
+      "train_counts": [
+        2137,
+        3068,
+        1530
+      ],
+      "validation_counts": [
+        561,
+        695,
+        422
+      ]
+    },
+    {
+      "fold": 3,
+      "train_n": 6734,
+      "validation_n": 1679,
+      "train_counts": [
+        2155,
+        3004,
+        1575
+      ],
+      "validation_counts": [
+        543,
+        759,
+        377
+      ]
+    },
+    {
+      "fold": 4,
+      "train_n": 6735,
+      "validation_n": 1678,
+      "train_counts": [
+        2199,
+        2962,
+        1574
+      ],
+      "validation_counts": [
+        499,
+        801,
+        378
+      ]
+    },
+    {
+      "fold": 5,
+      "train_n": 6713,
+      "validation_n": 1700,
+      "train_counts": [
+        2182,
+        2969,
+        1562
+      ],
+      "validation_counts": [
+        516,
+        794,
+        390
+      ]
+    }
+  ],
+  "input_audit": [
+    {
+      "station": 2,
+      "file": "station_002_fivepoints.csv",
+      "sha256": "bbedb1ccbadf84127d07cf73a11f30a64bd13173a40fa708b579a28cbd5ff559",
+      "rows": 17568,
+      "missing_predictor_cells": 144
+    },
+    {
+      "station": 5,
+      "file": "station_005_shafter.csv",
+      "sha256": "a67905f6c9f6e716d348ac21238b6030a0358894cf6b19242c5449c48d287bb3",
+      "rows": 17568,
+      "missing_predictor_cells": 18008
+    },
+    {
+      "station": 6,
+      "file": "station_006_davis.csv",
+      "sha256": "96442c0f40de42388a9ea27592f64023badb28a6ebd034a90e08deef26c62fa7",
+      "rows": 17568,
+      "missing_predictor_cells": 83
+    },
+    {
+      "station": 7,
+      "file": "station_007_firebaugh_telles.csv",
+      "sha256": "86b1ebfd159affdff5fbf2f323ebfb8137ea78dc3509c163ce0bed58e7a37fe3",
+      "rows": 17568,
+      "missing_predictor_cells": 8613
+    },
+    {
+      "station": 13,
+      "file": "station_013_camino.csv",
+      "sha256": "69305418096915bc9d0554f5dfeaad8d25032baa0a1039bbf6c5705fd4352998",
+      "rows": 17568,
+      "missing_predictor_cells": 109
+    },
+    {
+      "station": 15,
+      "file": "station_015_stratford.csv",
+      "sha256": "3f9d8c5a51859cf13d7e74064c74f94ff93a16e8015a01cc6d5d5c1691ea511d",
+      "rows": 17568,
+      "missing_predictor_cells": 46
+    },
+    {
+      "station": 39,
+      "file": "station_039_parlier.csv",
+      "sha256": "2d8f572db9bd1ccbedb7ff33a8cb4468f24c2ce6b879d89f407fc34bbf4fd111",
+      "rows": 17568,
+      "missing_predictor_cells": 44
+    },
+    {
+      "station": 47,
+      "file": "station_047_brentwood.csv",
+      "sha256": "662a571563b0464da77fe588745277fda41cee26241fd87fcd6fdfea8720f9d7",
+      "rows": 17568,
+      "missing_predictor_cells": 94
+    },
+    {
+      "station": 52,
+      "file": "station_052_san_luis_obispo.csv",
+      "sha256": "708387bfa47f948788182cd94d3656e5796641c4172d8cb55050e94ffc1bed1a",
+      "rows": 17568,
+      "missing_predictor_cells": 92
+    },
+    {
+      "station": 91,
+      "file": "station_091_tulelake_fs.csv",
+      "sha256": "e623d2984b56f59c9bea00bab81af9352050f8bb716aac94254d59121f870af0",
+      "rows": 17568,
+      "missing_predictor_cells": 222
+    },
+    {
+      "station": 105,
+      "file": "station_105_westlands.csv",
+      "sha256": "a4a67fdf41e64003537b177f7d1837ef23365d744263430ec5cfda597b5ec067",
+      "rows": 17568,
+      "missing_predictor_cells": 55
+    },
+    {
+      "station": 107,
+      "file": "station_107_santa_barbara.csv",
+      "sha256": "af670ec0c23a189ff3235bbb6ed3ec6eafdd05577a7108d42be5f9467fc1210e",
+      "rows": 17568,
+      "missing_predictor_cells": 66
+    },
+    {
+      "station": 113,
+      "file": "station_113_king_city_oasis_rd.csv",
+      "sha256": "123554fcd96a5c7196d8bc5087ab2b3a12e2e89617e4aa174fe76a46144cbd4e",
+      "rows": 17568,
+      "missing_predictor_cells": 50
+    },
+    {
+      "station": 146,
+      "file": "station_146_belridge.csv",
+      "sha256": "7cd281ae3cf9e6896034af1f765a140c06e1518602b636cf5b6435cc51a8a036",
+      "rows": 17568,
+      "missing_predictor_cells": 50
+    }
+  ],
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scikit_learn": "1.3.2",
+    "matplotlib": "3.10.0"
+  },
+  "classifiers": {
+    "Logistic": {
+      "C": 1.0,
+      "class_weight": "balanced",
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": null,
+      "max_iter": 2000,
+      "multi_class": "auto",
+      "n_jobs": null,
+      "penalty": "l2",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "LDA": {
+      "covariance_estimator": null,
+      "n_components": null,
+      "priors": null,
+      "shrinkage": "auto",
+      "solver": "lsqr",
+      "store_covariance": false,
+      "tol": 0.0001
+    },
+    "RandomForest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced_subsample",
+      "criterion": "gini",
+      "max_depth": 14,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 3,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "n_estimators": 160,
+      "n_jobs": 2,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "primary_classifier": "RandomForest",
+  "selection_rule": "Maximum temporal mean validation macro-F1, then compare the same classifier in both arms."
+}
